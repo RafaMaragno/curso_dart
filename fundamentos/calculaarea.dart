@@ -15,7 +15,7 @@ main() {
   //O comando 'stdin.readLineSync()' é utilizado para receber uma entrada do usuário
   final entrada = stdin.readLineSync();
 
-  //Conversão da entrada do usário em tipo 'double'
+  //Conversão da entrada do usuário em tipo 'double'
   final raio = double.parse(entrada!);
   
   //Cálculo da área da circunferência
