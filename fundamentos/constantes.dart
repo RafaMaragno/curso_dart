@@ -1,7 +1,6 @@
 import 'dart:io';
 
 main() {
-
 // CONST ==> O valor é atribuído em tempo de compilação;
 // FINAL ==> O valor é atribuído em tempo de execução;
 
