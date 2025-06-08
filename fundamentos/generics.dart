@@ -1,7 +1,10 @@
 main() {
 
+// Lista comum
   var lista = ['banana', 'nanica', 10.0, ];
+  print(lista);
 
+// Lista String
   List<String> novaLista = ['maçã', 'morango', 'laranja'];
 
   novaLista.add('mamão');
