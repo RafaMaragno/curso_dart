@@ -40,4 +40,28 @@ main() {
       print('Valor do contador: $contadorMatriz');
     }
   }
+
+  //For com Map
+  Map<String, double> notasDosAlunos = {
+    'Ana Clara': 9.5,
+    'Catarina': 8.5,
+    'Davi S': 8.5,
+    'Emanuelle': 9.5,
+    'Livia G': 9.0,
+    'Livia M': 10.0,
+    'Lucas': 8.5,
+    'Maria Luiza': 9.0,
+  };
+
+  for (String nome in notasDosAlunos.keys) {
+    print('Nome do aluno: $nome - Nota do aluno: ${notasDosAlunos[nome]}');
+  }
+
+  for (var notaAlunos in notasDosAlunos.values) {
+    print('Nota do aluno $notaAlunos');
+  }
+
+  for (var register in notasDosAlunos.entries) {
+    print('Aluno ${register.key} tirou a nota: ${register.value}');
+  }
 }
