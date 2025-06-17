@@ -11,7 +11,7 @@ main() {
 
   print('Fim!');
 
-  //Do while - Quando é o exato o "do", o bloco é executado pelo menos uma vez.
+  //Do while - Quando é o exato o "do", o bloco é executado pelo menos uma vez independente do valor.
   do {
     stdout.write('Digite algo ou digite sair: ');
     input = stdin.readLineSync().toString();
