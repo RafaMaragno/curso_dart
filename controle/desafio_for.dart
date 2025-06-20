@@ -1,5 +1,13 @@
 main () {
 
+  //Desafio: criar um laço para imprimir a sequência abaixo sem utilizar números no controle.
+  //#
+  //##
+  //###
+  //####
+  //#####
+  //######
+
   String hashtag = '#';
 
   for (bool controle = false; controle != true;) {
