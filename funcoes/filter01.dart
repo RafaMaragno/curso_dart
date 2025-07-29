@@ -16,8 +16,10 @@ main() {
   //Forma 2 de "filtrar" valores dentro de uma lista
   //+++
   bool Function(double) notasAltasFunction = (double nota) => nota >= 7.0;
-
   var notasAltasFiltradas = notas.where(notasAltasFunction);
   print(notasAltasFiltradas);
-  
+
+  bool Function(double) notasMuitoAltasFn = (double nota) => nota >= 8.5;
+  var notasMuitoAltasFilter = notas.where(notasMuitoAltasFn);
+  print(notasMuitoAltasFilter);  
 }
